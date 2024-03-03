@@ -1,0 +1,48 @@
+.cards-list-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    overflow-y: unset;
+}
+.cards-list-fields{
+    display: flex;
+    width: 100%;
+}
+.cards-list-fields form{
+    display: flex;
+    width: 100%;
+}
+.cards-list-fields form input{
+    flex: auto;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+}
+.cards-list-fields form button {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.cards-list{
+    display: flex;
+    width: 100%;
+}
+.cards{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.redirect-to-home:hover{
+    cursor: pointer;
+    background: #ececec;
+    transform: scale(1.05);
+}
+.no-cards-found{
+    display: flex;
+    flex-direction: column;
+}
