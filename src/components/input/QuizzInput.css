@@ -1,0 +1,6 @@
+.quizz-input{
+    display: flex;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    font-size: 32px;
+}
